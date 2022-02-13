@@ -1,8 +1,15 @@
-//import TodosItem from '../src/components/todos/todosItem.js'
+import TodosItem from '../todos/todosItem';
+import TodosListJson from './data.json';
 
 function Todos() {
+
+    const handleClick = ()=> {
+
+    }
+
     return (
-        <ul>dsada
+        <ul>
+            <TodosItem onClick={handleClick} Array={TodosListJson} />
         </ul>
     )
 }
