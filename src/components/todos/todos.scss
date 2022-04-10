@@ -1,0 +1,29 @@
+.todos-list {
+    padding: 0;
+    list-style: none;
+    li {
+        position: relative;
+        border-bottom: 1px solid #999;
+        label {
+            padding: 5px 15px;
+            display: flex;
+        }
+
+        &.completed {
+            cursor: default;
+            opacity: 0.3;
+        }
+    }
+}
+
+.todo {
+    &-check {
+        width: 20px;
+    }
+    &-description {
+        width: 200px;
+    }
+    &-executor {
+        width: 200px;
+    }
+}
